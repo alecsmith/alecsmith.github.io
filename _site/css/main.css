@@ -1,0 +1,73 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: normal;
+    font-size: 1.1em;
+    text-align:center;
+}
+footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: normal;
+}
+nav ul li {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    display: inline;
+    margin-right: 50px;
+}
+footer ul li {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-family:'Helvetica', 'Sans-Serif';
+    font-size: 1.5em;
+}
+h2 {
+    font-family:'Helvetica','Sans-Serif';
+    font-size: 1.25em;
+}
+p {
+    font-family:'Helvetica','Sans-Serif';
+    font-size: 1em;
+    #line-height: 1.25em;
+    color: #999;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: 1em;
+}
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
+}
+ul.posts li {
+    list-style: none;
+}
+address {
+    font-size: 1.2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-style: normal;
+    /*display: inline;*/
+}
+ol {
+    font-size: 1em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-style: normal;
+    line-height: 1.3em;
+  }
