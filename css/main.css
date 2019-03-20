@@ -7,7 +7,8 @@ nav ul {
     padding: 0px;
     list-style: none;
     font-weight: normal;
-    font-size: 1em;
+    font-size: 1.1em;
+    text-align:center;
 }
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -18,7 +19,7 @@ footer ul {
 nav ul li {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     display: inline;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 footer ul li {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -28,7 +29,7 @@ footer ul li {
 a {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-decoration: none;
-    color: #999;
+    color: #000;
 }
 a:hover {
     text-decoration: underline;
@@ -62,6 +63,7 @@ address {
     font-size: 1.2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-style: normal;
+    /*display: inline;*/
 }
 ol {
     font-size: 1em;

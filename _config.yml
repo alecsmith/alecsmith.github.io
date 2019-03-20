@@ -1,15 +1,16 @@
 name: Alec Smith
 markdown: kramdown
 gems: ['jekyll/scholar']
+baseurl: ''
 scholar:
   style: apa
   locale: en
 
-  sort_by: none
-  order: ascending
+  sort_by: year
+  order: descending
 
   group_by: none
-  group_order: ascending
+  group_order: descending
 
   source: ./_bibliography
   bibliography: publications.bib
@@ -25,3 +26,4 @@ scholar:
   details_link:   Details
 
   query: "@*"
+  repository: /assets/publications/
