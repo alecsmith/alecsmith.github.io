@@ -14,7 +14,7 @@ scholar:
 
   source: ./_bibliography
   bibliography: publications.bib
-  bibliography_template: ""
+  bibliography_template: bibtemplate
 
   replace_strings: true
   join_strings:    true
@@ -26,4 +26,4 @@ scholar:
   details_link:   Details
 
   query: "@*"
-  repository: /assets/publications/
+  repository: /publications
