@@ -39,14 +39,15 @@ h1 {
     font-size: 1.5em;
 }
 h2 {
-    font-family:'Helvetica','Sans-Serif';
-    font-size: 1.2em;
+  font-size: 1.2em;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  font-style: normal;
 }
 p {
     font-family:'Helvetica','Sans-Serif';
     font-size: 1em;
     #line-height: 1.25em;
-    color: #999;
+    #color: #999;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -58,6 +59,7 @@ ul.posts {
 }
 ul.posts li {
     list-style: none;
+    #font-size: 3em;
 }
 address {
     font-size: 1em;
