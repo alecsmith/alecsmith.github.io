@@ -3,7 +3,7 @@ body {
     width: 70%;
 }
 nav ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Work Sans', 'Arial';
     padding: 0px;
     list-style: none;
     font-weight: normal;
@@ -11,23 +11,23 @@ nav ul {
     text-align:center;
 }
 footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Work Sans', 'Arial';
     padding: 0px;
     list-style: none;
     font-weight: normal;
 }
 nav ul li {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Work Sans', 'Arial';
     display: inline;
     margin-right: 50px;
 }
 footer ul li {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Work Sans', 'Arial';
     display: inline;
     margin-right: 20px;
 }
 a {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Work Sans', 'Arial';
     text-decoration: none;
     color: #000;
 }
@@ -35,16 +35,17 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-family:'Helvetica', 'Sans-Serif';
+    font-family:'Work Sans', 'Arial';
     font-size: 1.5em;
+    font-style: bold;
 }
 h2 {
   font-size: 1.2em;
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
-  font-style: normal;
+  font-family:'Work Sans', 'Arial';
+  font-style: regular;
 }
 p {
-    font-family:'Helvetica','Sans-Serif';
+    font-family:'Work Sans', 'Arial';
     font-size: 1em;
     #line-height: 1.25em;
     #color: #999;
@@ -63,13 +64,13 @@ ul.posts li {
 }
 address {
     font-size: 1em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Work Sans', 'Arial';
     font-style: normal;
     /*display: inline;*/
 }
 ol {
     font-size: 1em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Work Sans', 'Arial';
     font-style: normal;
     line-height: 1.3em;
   }

@@ -6,71 +6,70 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 			<!-- link to academicons stylesheet -->
 			<link rel="stylesheet" href="/assets/academicons-1.8.6/css/academicons.min.css"/>
+			<!-- link to Google fonts api -->
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans">
 			<style>
- * {
-  box-sizing: border-box;
-}
+				 * {
+				  box-sizing: border-box;
+				}
 
-img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-	float: center
-	vertical-align: middle
-  /*width: 150px;*/
-}
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
- /*   height: 300px; Should be removed. Only for demonstration */
-}
-.left {
-  width: 75%;
-}
+				img {
+				  border: 1px solid #ddd;
+				  border-radius: 4px;
+				  padding: 5px;
+					float: center
+					vertical-align: middle
+				  /*width: 150px;*/
+				}
+				/* Create two equal columns that floats next to each other */
+				.column {
+				  float: left;
+				  width: 50%;
+				  padding: 10px;
+				 /*   height: 300px; Should be removed. Only for demonstration */
+				}
+				.left {
+				  width: 75%;
+				}
 
-.right {
-  width: 25%;
-}
+				.right {
+				  width: 25%;
+				}
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+				/* Clear floats after the columns */
+				.row:after {
+				  content: "";
+				  display: table;
+				  clear: both;
+				}
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-</style>
+				/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+				@media screen and (max-width: 600px) {
+				  .column {
+				    width: 100%;
+				  }
+				}
+				</style>
+			</head>
+			<body>
+				<nav>
+		    		<ul>
+		        		<li><a href="/">Home</a></li>
+			        	<li><a href="/research">Research</a></li>
+		        		<li><a href="/assets/cv.pdf">CV</a></li>
+		    		</ul>
+				</nav>
 
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/research">Research</a></li>
-	        		<li><a href="/assets/cv.pdf">CV</a></li>
-	    		</ul>
-			</nav>
-
-		 <div class="row">
-			<!--  <div class="column" style="background-color:#aaa;"> -->
-				<div class="column left">
-					{{ content }}
-			  </div>
-
-			  <div class="column right">
-					<img src="/assets/acs_headshot_2018.jpg" alt="Alec Smith" style="width:200px;height:225px;" title="I will change this to a hiking photo when a good one is available">
-			  </div>
-		</div>
-
-			</body>
+			 	<div class="row">
+					<!--  <div class="column" style="background-color:#aaa;"> -->
+					<div class="column left">
+						{{ content }}
+					</div>
+					<div class="column right">
+						<img src="/assets/acs_headshot_2018.jpg" alt="Alec Smith" style="width:200px;height:225px;" title="I will change this to a hiking photo when a good one is available">
+					</div>
+				</div>
+				</body>
 
 
 			<footer>
