@@ -1,13 +1,13 @@
 name: Alec Smith
 markdown: kramdown
-gems: ['jekyll/scholar']
+plugins: ['jekyll/scholar']
 baseurl: ''
 scholar:
   style: apa
   locale: en
 
-  sort_by: year
-  order: descending
+  sort_by: year,month
+  order: descending, descending
 
   group_by: none
   group_order: descending
