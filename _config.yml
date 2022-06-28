@@ -1,0 +1,29 @@
+name: Alec Smith
+markdown: kramdown
+plugins: ['jekyll/scholar']
+baseurl: ''
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: year,month
+  order: descending, descending
+
+  group_by: none
+  group_order: descending
+
+  source: ./_bibliography
+  bibliography: publications.bib
+  bibliography_template: bibtemplate
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: false
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+  repository: /publications

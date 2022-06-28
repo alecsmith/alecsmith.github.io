@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<!-- link to academicons stylesheet -->
+			<link rel="stylesheet" href="/assets/academicons-1.8.6/css/academicons.min.css"/>
+			<!-- link to Google fonts api -->
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans">
+ 		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/research">Research</a></li>
+	        		<li><a href="/assets/cv.pdf">CV</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+
+			{{ content }}
+
+			</div><!-- /.container -->
+			<footer>
+				<nav>
+	    		<ul>
+							<li><a href = "https://scholar.google.com/citations?user=VwYBrcoAAAAJ&hl=en">
+							<i class="ai ai-google-scholar ai-lg"></i> Google Scholar</a></li>
+
+							<li><a href = "https://www.researchgate.net/profile/Alec_Smith2">
+							<i class="ai ai-researchgate ai-lg"></i> ResearchGate</a></li>
+
+							<li><a href = "https://orcid.org/0000-0002-1938-4660">
+							<i class="ai ai-orcid ai-lg"></i> ORCiD</a></li>
+
+			<!--
+	        		<li><a href="mailto:alecsmith@vt.edu">email</a></li>
+	        		<li><a href="https://github.com/alecsmith">github.com/alecsmith</a></li>
+			-->
+					</ul>
+				</nav>
+			</footer>
+		</body>
+	</html>
