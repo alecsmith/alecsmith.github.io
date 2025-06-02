@@ -1,6 +1,6 @@
 name: Alec Smith
 markdown: kramdown
-plugins: ['jekyll/scholar']
+plugins: [jekyll-scholar]
 baseurl: ''
 scholar:
   style: apa
@@ -19,7 +19,6 @@ scholar:
   replace_strings: true
   join_strings:    true
 
-  use_raw_bibtex_entry: false
 
   details_dir:    bibliography
   details_layout: bibtex.html
