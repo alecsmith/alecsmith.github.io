@@ -3,7 +3,7 @@ markdown: kramdown
 plugins: [jekyll-scholar]
 baseurl: ''
 scholar:
-  style: citation-style
+  style: apa
   locale: en
 
   sort_by: year,month
