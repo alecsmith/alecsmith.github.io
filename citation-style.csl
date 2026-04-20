@@ -1860,7 +1860,7 @@
           </choose>
           <text variable="URL"/>
         </group>
-      </else-if>
+      </if>
     </choose>
   </macro>
   <!-- 5. Publication history (APA 9.39-41) -->
