@@ -9,13 +9,14 @@ Personal academic site for Alec Smith. Built with Jekyll and the jekyll-scholar 
 ```
 _bibliography/        BibTeX files
   publications.bib    published papers (rendered on research page)
-  workingpapers.bib   working papers (section currently commented out in research/index.html)
+  inprogress.bib      in-progress papers (rendered in the "In progress" section above Publications)
 _layouts/
   bibtemplate.html    controls how each bibliography entry is rendered
   default.html        base page layout
   mainpage.html       homepage layout
 _site/                Jekyll build output — do not edit directly
 publications/         PDF files served at /publications/<citekey>.pdf
+  inprogress/         PDFs for in-progress papers; jekyll-scholar scans subfolders, so the PDF button still works
 research/
   index.html          the Research page
 index.html            homepage
@@ -50,7 +51,7 @@ For local preview, VS Code Live Server needs to serve from `_site/`, not the pro
 
 1. Add the BibTeX entry to `_bibliography/publications.bib`. The sort order is by year then month (descending), so include a `month` field if ordering within a year matters.
 2. Drop the PDF into `publications/<citekey>.pdf`. jekyll-scholar automatically generates a PDF button for any entry whose citekey matches a file in that folder (configured via `repository: /publications` in `_config.yml`).
-3. If the paper was previously in `workingpapers.bib`, remove it from there.
+3. If the paper was previously in `inprogress.bib`, remove it from there and move its PDF from `publications/inprogress/` up to `publications/`.
 4. Publish: `git add . && git commit -m "..." && git push && rake publish`.
 
 ---
