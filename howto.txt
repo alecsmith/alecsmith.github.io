@@ -1,0 +1,9 @@
+### steps
+# git status
+##if not on branch source
+# git checkout source
+## then
+# git add .
+# git commit -m "[commit message]"
+# git push
+# rake publish
