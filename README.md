@@ -76,6 +76,8 @@ Example:
 pdf = {/publications/inprogress/alsharawy2026efficient.pdf}
 ```
 
+Note (Oct 2026): this is a workaround. jekyll-scholar is designed for a single flat folder of PDFs named by citekey. If the explicit `pdf` field becomes a nuisance, the simpler alternative is to keep all PDFs flat in `publications/`, drop the `pdf` lines, and let the automatic matching handle everything; the template fallback can stay in place unused.
+
 ### `suppress_journal`
 When set to `true`, the auto-generated italic journal name is stripped from the APA reference before the `note` is appended. Use this when you want full control over how the journal appears (e.g. only inside the note, formatted differently).
 

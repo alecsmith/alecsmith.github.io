@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
+    font-weight: 500; /* site was built with Roboto 500 only; keep that as the default */
 }
 nav ul {
     font-family: 'Roboto', sans-serif;
@@ -78,4 +79,10 @@ ul li {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     line-height: 1.3em;
+}
+.news ul li {
+    font-weight: 400;
+}
+.news b {
+    font-weight: 700;
 }
