@@ -16,7 +16,7 @@ _layouts/
   mainpage.html       homepage layout
 _site/                Jekyll build output — do not edit directly
 publications/         PDF files served at /publications/<citekey>.pdf
-  inprogress/         PDFs for in-progress papers; jekyll-scholar scans subfolders, so the PDF button still works
+  inprogress/         PDFs for in-progress papers; jekyll-scholar does NOT auto-link these (it keys files by relative path), so entries in inprogress.bib need an explicit pdf = {/publications/inprogress/<citekey>.pdf} field
 research/
   index.html          the Research page
 index.html            homepage
@@ -66,6 +66,14 @@ Appended after the APA-formatted reference. Useful for forthcoming status, speci
 Example:
 ```bibtex
 note = {Forthcoming in the special issue of <i>Journal of Economic Behavior \& Organization</i> in honor of Gary Charness.}
+```
+
+### `pdf`
+An explicit PDF path. The template uses it only when jekyll-scholar finds no automatic match in `publications/`. Needed for anything in a subfolder, e.g. in-progress papers.
+
+Example:
+```bibtex
+pdf = {/publications/inprogress/alsharawy2026efficient.pdf}
 ```
 
 ### `suppress_journal`
